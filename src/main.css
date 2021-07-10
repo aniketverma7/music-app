@@ -1,0 +1,67 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.body{
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0px;
+    width: auto;
+    height: 35vw;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+}
+.leftSide > img{
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px  black;
+}
+.leftSide .details{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.leftSide .details > h2{
+    color: rgb(170, 166, 166);
+    font-size: 30px;
+}
+.leftSide .details > h6{
+    color: rgb(145, 142, 142);
+    font-size: 20px;
+}
+.playlist{
+    border: 1px solid rgb(194, 192, 192);
+    width: 400px;
+    margin-right: 20px;
+    overflow-y: scroll;
+}
+.playlist > h2{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.item{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: rgb(77, 73, 73);
+}
+.item_details{
+    color: white;
+    opacity: 0.7;
+    margin-left: 20px;
+}
